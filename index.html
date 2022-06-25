@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Assurance</title>
+  </head>
+<header>
+  
+</header>
+
+  <body>
+    
+    <div class="info-categorie">
+      <h3>En fonction de votre age, du nombre de sinistre et de votre expérience en tant que conducteur, <br/> nous calculons votre tarif assurance auto annuel.<br/>
+      Nous refusons les conducteurs qui auraient plus de 3 accidents. </h3>
+      <div class="card-tarif">
+        <div class="categorie">
+          <span id="r">Rouge </span>
+          <p>
+              Prix : 999€/an
+          </p>
+        </div>
+        <div class="categorie">
+          <span id="o">Orange </span>
+          <p>
+            Prix : 799€/an
+          </p>
+
+        </div>
+        <div class="categorie">
+          <span id="v">Vert </span>
+          <p>
+            Prix : 599€/an
+          </p>
+
+        </div>
+        <div class="categorie">
+          <span id="b">Bleu </span>
+          <p>
+            Prix : 499€/an
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="formulaire">
+    <div class="container">
+      <div class="form">
+        <div class="saisi">
+          <label for="valeur">Nombre d'accident :</label>
+          <input
+            type="text"
+            class="form-control"
+            id="valeur"
+            placeholder="Accident"
+          />
+          <label for="valeur">Quel est votre age : </label>
+          <input
+            type="text"
+            class="form-control"
+            id="valeur2"
+            placeholder="Age"
+          />
+          <label for="valeur">Nombre d'année en tant que assuré:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="valeur3"
+            placeholder="Assuré depuis"
+          />
+          <label for="valeur"
+            >Depuis combien de temps avez vous le permis.</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="valeur4"
+            placeholder="Permis depuis"
+          />
+        </div>
+      </div>
+    </div>
+    <button type="submit" id="btn">Obtenir catégorie</button>
+    <div class="row">
+      <div class="col-sm-4" style=" padding: 10px">
+        <span id="retour"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="message-element" id="message-element">
+    <div class="message">
+      <h2 id="message-fin"><img src="./assets/image/Exercice.PNG" alt=""></h2>
+      <button id="play-bouton">Entrer</button>
+    </div>
+  </div>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
